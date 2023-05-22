@@ -1,0 +1,22 @@
+caps:
+  testName: 'BaseProject Android Automation'
+  accessKey: ""
+  deviceQuery: "@os='android' and @version='8.1' and @category='PHONE'"
+  app: "cloud:com.android.chrome/com.google.android.apps.chrome.Main"
+  platformName: "Android"
+  appPackage: "com.android.chrome"
+  appActivity: "com.google.android.apps.chrome.Main"
+  releaseVersion: ""
+  fullReset: false
+  automationName: "UiAutomator2"
+  autoWebView: true
+  setWebContentsDebuggingEnabled: true
+  autoAcceptAlerts: true
+  locationServicesEnabled: true
+  autoGrantPermissions: true
+  newCommandTimeout: 800
+  appiumVersion: 1.22.2
+
+appium_lib:
+  server_url: ""
+

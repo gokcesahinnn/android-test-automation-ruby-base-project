@@ -1,0 +1,5 @@
+<% puts "process number: #{ENV['TEST_ENV_NUMBER'].inspect}" %>
+default: "--profile required --profile allure_report --publish-quiet --tags 'not @excluded ' --guess"
+clean: "-r features/ -d"
+required: "--format pretty --retry 1"
+allure_report: "--format pretty --format AllureCucumber::CucumberFormatter --out output/allure-results"

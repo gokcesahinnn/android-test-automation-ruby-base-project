@@ -1,0 +1,18 @@
+caps:
+  platformName: "Android"
+  appPackage: "com.android.chrome"
+  appActivity: "com.google.android.apps.chrome.Main"
+  deviceName: "Test Automation"
+  app: ""
+  noReset: false #web tarafındaki incognito mod gibi cache'i temizleyerek açıyor.
+  fullReset: false
+  automationName: "UiAutomator2"
+  autoWebView: true
+  setWebContentsDebuggingEnabled: true
+  autoAcceptAlerts: true
+  autoGrantPermissions: true
+  newCommandTimeout: 600
+  appiumVersion: 1.22.2
+
+appium_lib:
+    server_url: "http://127.0.0.1:4723/wd/hub"
